@@ -1,0 +1,106 @@
+body {
+    font-family: font;
+}
+
+@font-face {
+    font-family: font;
+    src: url(src/fixedsys.ttf);
+}
+
+@media screen and (max-width: 800px) {
+    .emoji { display: none; }
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+#main {
+    text-align: center;
+    background-color: silver;
+    padding: 2rem;
+    border: 4px ridge dodgerblue;
+    position: absolute;
+    z-index: 10;
+}
+
+hr {
+    border-color: dodgerblue;
+    border-width: 2px;
+}
+
+a {
+    color: orangered;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: orangered;
+    color: white;
+}
+
+#pricing-text {
+    border: 4px dotted greenyellow;
+    width: fit-content;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    background-color: green;
+    font-size: large;
+}
+
+#vouches {
+    border: 4px ridge maroon;
+    width: fit-content;
+    padding-left: 16rem;
+    padding-right: 16rem;
+    background-color: red;
+    color: white;
+    font-size: x-large;
+}
+
+.vouch { width: 50rem; }
+
+#builds {
+    width: fit-content;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    background-color: dimgray;
+    color: white;
+    box-shadow: 8px 8px mediumblue;
+    font-size: x-large;
+}
+
+.build {
+    width: 50rem;
+    margin: 1rem;
+}
+
+.emoji {
+    position: absolute;
+    z-index: 10;
+    width: 15rem;
+}
+
+#emoji1, #emoji2 { top: 10rem; }
+
+#emoji2 {
+    left: 50rem;
+}
+
+#emoji3 {
+    top: 60rem;
+    left: -6rem;
+}
+
+#emoji4 {
+    top: 90rem;
+    left: 56rem;
+}
+
+#canvas {
+    position: fixed;
+    z-index: 0;
+    top: 0;
+    left: 0;
+}
